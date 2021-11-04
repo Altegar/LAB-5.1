@@ -19,7 +19,7 @@ int main()
 	cout << "r = "; cin >> r;
 	cout << "s = "; cin >> s;
 
-	double c = (pow(g(r, s * s + 1), 2) * g * (r, s * s + 1) + g * (1, r * r + s)) / (1 + pow(g(1, r * s), 2) * g * (1, r * s));
+	double c = (pow(g(r, s * s + 1), 2) * g(r, s * s + 1) + g(1, r * r + s)) / (1 + pow(g(1, r * s), 2) * g(1, r * s));
 
 	cout << "c = " << c << endl;
 
